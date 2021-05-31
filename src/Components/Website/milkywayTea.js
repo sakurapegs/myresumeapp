@@ -169,7 +169,7 @@ const imagesTea = [
     {
         id: '0',
         name: 'lime',
-        url: '/lime.svg',
+        url: 'https://sakurapegs.github.io/lime.svg',
         title: 'Lime',
         width: '40%',
         price: '$5.00',
@@ -178,7 +178,7 @@ const imagesTea = [
     {
         id: '1',
         name: 'blueberry',
-        url: '/blueberry.svg',
+        url: 'https://sakurapegs.github.io/blueberry.svg',
         title: 'Blueberry',
         width: '40%',
         price: '$8.00',
@@ -187,7 +187,7 @@ const imagesTea = [
     {
         id: '2',
         name: 'mocha',
-        url: '/mocha.svg',
+        url: 'https://sakurapegs.github.io/mocha.svg',
         title: 'Mocha',
         width: '40%',
         price: '$5.00',
@@ -196,7 +196,7 @@ const imagesTea = [
     {
         id: '3',
         name: 'macha',
-        url: '/macha.svg',
+        url: 'https://sakurapegs.github.io/macha.svg',
         title: 'Macha',
         width: '40%',
         price: '$8.00',
@@ -205,7 +205,7 @@ const imagesTea = [
     {
         id: '4',
         name: 'bubblegum',
-        url: '/bubble_gum.svg',
+        url: 'https://sakurapegs.github.io/bubble_gum.svg',
         title: 'Bubble Gum',
         width: '40%',
         price: '$5.00',
@@ -214,7 +214,7 @@ const imagesTea = [
     {
         id: '5',
         name: 'pomelo',
-        url: '/pomelo.svg',
+        url: 'https://sakurapegs.github.io/pomelo.svg',
         title: 'Pomelo',
         width: '40%',
         price: '$5.00',
@@ -223,7 +223,7 @@ const imagesTea = [
     {
         id: '6',
         name: 'strawberry',
-        url: '/strawberry.svg',
+        url: 'https://sakurapegs.github.io/strawberry.svg',
         title: 'Strawberry',
         width: '40%',
         price: '$8.00',
@@ -232,7 +232,7 @@ const imagesTea = [
     {
         id: '7',
         name: 'chocotea',
-        url: '/ChocoTea.svg',
+        url: 'https://sakurapegs.github.io/ChocoTea.svg',
         title: 'Choco Tea',
         width: '40%',
         price: '$8.00',
@@ -300,7 +300,8 @@ const MilkywayTea = (props) => {
     <span
         className={classes.imageSrc}
     style={{
-        backgroundImage: "https://sakurapegs.github.io(${tea.url})`,
+//         backgroundImage: "https://sakurapegs.github.io(${tea.url})`,
+           backgroundImage: `url(${tea.url})`,
     }}
     />
     <span className={classes.imageBackdrop}/>
