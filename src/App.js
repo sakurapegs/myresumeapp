@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import ReferenceComponent from "./Components/SubComponent/SubComponentContent/ReferenceComponent";
+import PortfolioComponent from "./Components/SubComponent/SubComponentContent/PortfolioComponent";
+import {BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
+import AboutMeComponent from "./Components/SubComponent/SubComponentContent/AboutMeComponent";
+import ContactComponent from "./Components/SubComponent/SubComponentContent/ContactComponent";
+import MainPageComponent from "./Components/Main/MainPageComponent";
+// import CreateAccount from "./Components/Website/Authentication/CreateAccount";
+import MilkywayTea from "./Components/Website/milkywayTea";
+import Resume from "./PortfolioSVG/Resume.pdf"
+// import CartProvider from "./store/CartProvider";
+// import firebase from "./firebase"
+import React from "react";
+// import {useAuth} from "./Components/Website/Authentication/useAuth";
+// import CartContext from "./store/CartContext";
+// import UserContext from "./store/UserContext";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      // <CartContext.Provider value={{items: '', totalAmount: 0}}>
+
+        <div>
+          <Router>
+            <Switch>
+              <Route exact path="/" component={MainPageComponent}/>
+              <Route exact path="/AboutMeComponent" component={AboutMeComponent}/>
+              <Route exact path="/PortfolioComponent" component={PortfolioComponent}/>
+              <Route exact path="/ReferenceComponent" component={ReferenceComponent}/>
+              <Route exact path="/ContactComponent" component={ContactComponent}/>
+              {/*<Route exact path="/CreateAccount" component={CreateAccount}/>*/}
+              <Route exact path="/MilkywayTea" component={MilkywayTea}/>
+              <Route exact path="/Resume" component={Resume}/>
+              {/*<Route exact path="/Profile" component={Profile}/>*/}
+            </Switch>
+          </Router>
+        </div>
+      // </CartContext.Provider>
   );
+
 }
 
 export default App;
