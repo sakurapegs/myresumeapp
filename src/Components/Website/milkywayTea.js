@@ -300,7 +300,7 @@ const MilkywayTea = (props) => {
     <span
         className={classes.imageSrc}
     style={{
-        backgroundImage: `url(${tea.url})`,
+        backgroundImage: "https://sakurapegs.github.io(${tea.url})`,
     }}
     />
     <span className={classes.imageBackdrop}/>
