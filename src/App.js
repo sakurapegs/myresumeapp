@@ -1,6 +1,6 @@
 import ReferenceComponent from "./Components/SubComponent/SubComponentContent/ReferenceComponent";
 import PortfolioComponent from "./Components/SubComponent/SubComponentContent/PortfolioComponent";
-import {BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, BrowserRouter,} from 'react-router-dom';
 import AboutMeComponent from "./Components/SubComponent/SubComponentContent/AboutMeComponent";
 import ContactComponent from "./Components/SubComponent/SubComponentContent/ContactComponent";
 import MainPageComponent from "./Components/Main/MainPageComponent";
@@ -21,7 +21,7 @@ function App() {
       // <CartContext.Provider value={{items: '', totalAmount: 0}}>
 
         <div>
-          <Router>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
               <Route exact path="/" component={MainPageComponent}/>
               <Route exact path="/AboutMeComponent" component={AboutMeComponent}/>
@@ -33,7 +33,7 @@ function App() {
               <Route exact path="/Resume" component={Resume}/>
               {/*<Route exact path="/Profile" component={Profile}/>*/}
             </Switch>
-          </Router>
+            </BrowserRouter>
         </div>
       // </CartContext.Provider>
   );
