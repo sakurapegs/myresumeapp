@@ -196,7 +196,7 @@ const imagesTea = [
     {
         id: '3',
         name: 'macha',
-        url: "https://sakurapegs.github.io/macha.svg",
+        url: 'https://sakurapegs.github.io/macha.svg',
         title: 'Macha',
         width: '40%',
         price: '$8.00',
@@ -205,7 +205,7 @@ const imagesTea = [
     {
         id: '4',
         name: 'bubblegum',
-        url: "https://sakurapegs.github.io/bubble_gum.svg",
+        url: 'https://sakurapegs.github.io/bubble_gum.svg',
         title: 'Bubble Gum',
         width: '40%',
         price: '$5.00',
@@ -214,7 +214,7 @@ const imagesTea = [
     {
         id: '5',
         name: 'pomelo',
-        url: "https://sakurapegs.github.io/pomelo.svg",
+        url: 'https://sakurapegs.github.io/pomelo.svg',
         title: 'Pomelo',
         width: '40%',
         price: '$5.00',
@@ -223,7 +223,7 @@ const imagesTea = [
     {
         id: '6',
         name: 'strawberry',
-        url: "https://sakurapegs.github.io/strawberry.svg",
+        url: 'https://sakurapegs.github.io/strawberry.svg',
         title: 'Strawberry',
         width: '40%',
         price: '$8.00',
@@ -232,7 +232,7 @@ const imagesTea = [
     {
         id: '7',
         name: 'chocotea',
-        url: "https://sakurapegs.github.io/ChocoTea.svg",
+        url: 'https://sakurapegs.github.io/ChocoTea.svg',
         title: 'Choco Tea',
         width: '40%',
         price: '$8.00',
