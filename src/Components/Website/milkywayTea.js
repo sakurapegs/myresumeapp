@@ -178,7 +178,7 @@ const imagesTea = [
     {
         id: '1',
         name: 'blueberry',
-        url: "https://sakurapegs.github.io/myresumeapp/blueberry.svg",
+        url: "https://sakurapegs.github.io/blueberry.svg",
         title: 'Blueberry',
         width: '40%',
         price: '$8.00',
@@ -187,7 +187,7 @@ const imagesTea = [
     {
         id: '2',
         name: 'mocha',
-        url: "https://sakurapegs.github.io/myresumeapp/mocha.svg",
+        url: "https://sakurapegs.github.io/mocha.svg",
         title: 'Mocha',
         width: '40%',
         price: '$5.00',
@@ -205,7 +205,7 @@ const imagesTea = [
     {
         id: '4',
         name: 'bubblegum',
-        url: "https://sakurapegs.github.io/myresumeapp/bubble_gum.svg",
+        url: "https://sakurapegs.github.io/bubble_gum.svg",
         title: 'Bubble Gum',
         width: '40%',
         price: '$5.00',
@@ -214,7 +214,7 @@ const imagesTea = [
     {
         id: '5',
         name: 'pomelo',
-        url: "https://sakurapegs.github.io/myresumeapp/pomelo.svg",
+        url: "https://sakurapegs.github.io/pomelo.svg",
         title: 'Pomelo',
         width: '40%',
         price: '$5.00',
@@ -223,7 +223,7 @@ const imagesTea = [
     {
         id: '6',
         name: 'strawberry',
-        url: "https://sakurapegs.github.io/myresumeapp/strawberry.svg",
+        url: "https://sakurapegs.github.io/strawberry.svg",
         title: 'Strawberry',
         width: '40%',
         price: '$8.00',
