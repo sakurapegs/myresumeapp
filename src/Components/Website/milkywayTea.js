@@ -169,7 +169,7 @@ const imagesTea = [
     {
         id: '0',
         name: 'lime',
-        url: "https://sakurapegs.github.io/myresumeapp/lime.svg",
+        url: "https://sakurapegs.github.io/lime.svg",
         title: 'Lime',
         width: '40%',
         price: '$5.00',
@@ -196,7 +196,7 @@ const imagesTea = [
     {
         id: '3',
         name: 'macha',
-        url: "https://sakurapegs.github.io/myresumeapp/macha.svg",
+        url: "https://sakurapegs.github.io/macha.svg",
         title: 'Macha',
         width: '40%',
         price: '$8.00',
